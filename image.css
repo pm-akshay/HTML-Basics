@@ -1,0 +1,5 @@
+body{
+    background-image: url('/Photos/garden.jpg') ;
+    background-size: cover ;  /* make thebackground photo cover fully in screen*/
+    background-attachment: fixed;
+}
