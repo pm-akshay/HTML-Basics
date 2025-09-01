@@ -1,0 +1,14 @@
+body{
+    background-color: brown;
+}
+h1{
+    color:yellow;
+    background-color: black;
+}
+p{
+    background-color: rgb(175,247,5);
+    color: hsl(241,98%,19%);
+}
+h2{
+    color: #07ffd6
+}
