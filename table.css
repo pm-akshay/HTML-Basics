@@ -1,0 +1,22 @@
+table {
+    border: 1px solid red;
+    border-collapse: collapse;
+    background-color: rosybrown; /* table background */
+}
+
+th,td{
+   text-align: center; 
+   padding: 10px ;            /* header text */
+}
+
+th {
+    background-color: #5e6967; /* cell background */
+    color: darkblue;           /* cell text */
+    text-align: center;
+    padding: 10px;             /* ✅ fixed with semicolon */
+    border: 1px solid red;
+}
+caption{
+    font-weight: bold;
+}
+
