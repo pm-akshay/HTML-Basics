@@ -1,0 +1,10 @@
+/* To remove the underline in normal links */
+a:link {
+    text-decoration: none;
+    color: blue; /* optional: sets default color */
+}
+
+/* When hovering, change color to red */
+a:hover {
+    color: red;
+}
