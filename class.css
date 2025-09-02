@@ -1,0 +1,12 @@
+.vegetable{              /*we should give a dot before the class name*/
+    background-color: green;
+}
+
+.fruit{
+    background-color: blue;
+}
+ 
+.organic{                  /*multiple class*/
+    color: white;
+    text-align: center;
+}
