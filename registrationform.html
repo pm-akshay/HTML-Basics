@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My First Page</title>
+</head>
+<body>
+  <h1>HTML FORMS</h1>
+  <div style="background-color: lightgrey;">
+      <form>
+           <h2>Registration Form</h2>
+           <label for="fname">First Name</label>
+           <input type="text" name="fname" id="fname">
+           <label for="sname">Second Name</label>
+           <input type="text" name="sname" id="sname">
+           <br>
+           <label for="email" >Email:</label>
+           <input type="text" name="email" id="email">
+           <label for="pass">Password</label>
+           <input type="password" name="pass" id="pass">
+
+           <div style="background-color: lightblue;">
+            <h3>Gender</h3>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="other">
+            <label for="other">Other</label>
+
+            </div>
+
+            <div>
+                <h3>Hobbies</h3>
+                <input type="checkbox" name="game" id="Football">
+                <label for="Football">Football</label>
+                <input type="checkbox" name="game"id="Cricket">
+                <label for="Cricket">Cricket</label>
+                <input type="checkbox" name="game" id="tennis">
+                <label for="tennis">Tennis</label>
+
+            </div>
+
+            <div style="background-color: rgb(138,138,218) ;">
+              <h3>State</h3>
+              <label for="state">State</label>
+              <select name="state" id="state">
+                <option value="kerala">Kerala</option>
+                <option value="tamilnadu">Tamilnadu</option>
+                <option value="karnataka">Karnataka</option>
+
+              </select>
+              </div>
+
+              <div>
+                  <h3>Address</h3>
+                  <label for="address">Address</label>
+                  <textarea name="address" id="address" cols="30" rows="5"></textarea>
+
+              </div>
+
+              <div>
+                  <h3>Upload Photo</h3>
+                  <label for="photo">Upload</label>
+                  <input type="file" name="photo" id="photo">
+                  <br><br>
+                  <input type="button" value="Register">
+
+              </div>
+
+
+
+            </div>
+
+
+      </form>
+
+  </div>
+
+  
+</body>
+</html>
